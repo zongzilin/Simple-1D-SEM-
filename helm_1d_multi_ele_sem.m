@@ -12,7 +12,7 @@ J = 2/Le;
 [z, w, p_gll, D] = gen_zwd(N);
 %     [Ahh,Bhh,Chh,Dhh,zz,ww] =  semhat(N);
 %     D = Dh;
-Q = semq(E, N, 99);
+Q = gen_r(E, N);
 
 x = std_element_mapping(E, N, Lx, z);
 x = x - 1;
