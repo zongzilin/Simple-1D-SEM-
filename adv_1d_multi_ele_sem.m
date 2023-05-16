@@ -33,7 +33,6 @@ tE = 1;
 dt = 1e-5;
 
 Ie = eye(E);
-% Q = semq(E, N, 99);
 [R, Rp] = gen_r(E, N);
 Q = Rp;
 A = kron(Ie, Bh*Dh);
